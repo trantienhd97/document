@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Demo Pages Index
+title: Tài liệu dự án
 nav_order: 1
 ---
 
-# Demo Pages Index
+# Tài liệu dự án
 
 This is an index page, so the URL for this page doesn't need to end in
 `index.html`.
