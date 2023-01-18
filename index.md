@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Tài liệu dự án Goldsun Focus Media
+title: Chào mừng bạn đến với trang tài liệu của TiTi
 nav_order: 1
 ---
 
-# Tài liệu dự án Goldsun Focus Media
+# Danh sách tài liệu
 
