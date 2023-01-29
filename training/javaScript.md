@@ -13,7 +13,6 @@ sort: 1
 ### Kiến thức cơ bản
 
 1. Biến
-
 - Có 7 kiểu cơ bản: 
   + String
   + Number
@@ -22,3 +21,51 @@ sort: 1
   + Null: Null có nghĩa là giá trị rỗng hoặc giá trị không tồn tại, nó có thể sử dụng để gán cho một biến như là một đại diện không có giá trị.
   + Function
   + Object: Về mặt định nghĩa, một đối tượng (một object) là một danh sách các item, mỗi item là một cặp name-value, trong đó value có thể là: các kiểu dữ liệu cơ bản, function, hay cũng có thể là một object khác (kiểu dữ liệu phức hợp).
+
+2. Function
+- Function (hàm, chức năng), gọi chung là subprogram (chương trình con) có thể được gọi ở bên ngoài hoặc bên trong chính nó
+
+```js
+function nameFunction(parameter1, parameter2) {
+  //Code here
+}
+```
+
+- Function không có tham số và không trả về bất cứ giá trị gì.
+
+```js
+function hello() {
+    console.log('hello')
+}
+
+hello();
+```
+
+- Function vô danh (Anonymous functions)
+
+Anonymous functions hay còn gọi là hàm ẩn danh, là một hàm được sinh ra đúng vào thời điểm chạy của chương trình. Thông thường khi bạn khai báo một hàm thì trình biên dịch sẽ lưu lại trong bộ nhớ nên bạn có thể gọi ở trên hay dưới vị trí khai báo hàm đều được, nhưng với anonymous functions thì nó sẽ được sinh ra khi trình biên dịch xử lý tới vị trí của nó.
+
+```js
+var func = function () {
+    console.log('Hello function');
+}
+
+func();
+```
+
+- Function có một tham số và trả về một giá trị cụ thể
+
+```js
+function square(number) {
+    return number * number
+}
+
+console.log(square(2))
+```
+
+- Function self-invoking: Đây là function có thể gọi chính nó
+```js
+(function selfInvoking() {
+  console.log('Hello')  
+}()) 
+```

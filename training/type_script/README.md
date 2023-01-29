@@ -1,3 +1,0 @@
-# TypeScript
-
-source: `{{ page.path }}`

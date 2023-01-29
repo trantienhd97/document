@@ -1,3 +1,0 @@
-# ReactNative
-
-source: `{{ page.path }}`
